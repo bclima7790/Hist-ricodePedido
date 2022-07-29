@@ -2,13 +2,18 @@ main {
     height: 270px;
 }
 
-#product-list {
+#order-list {
     height: 90%;
     padding: 2px 0px;
     margin: 10px 0px;
 }
 
-.product-name-image > img {
+.order-line{
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #BBBBBB;
+}
+.order-name-image > img {
     height: 80px;
     border-radius: 5px;
 }
